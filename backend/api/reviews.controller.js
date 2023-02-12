@@ -1,6 +1,4 @@
 import ReviewsDAO from "../dao/reviewsDAO.js"
-import bson from "bson"
-const ObjectId = bson.ObjectId
 
 export default class ReviewsController {
     static async apiPostReview(req, res, next) {
